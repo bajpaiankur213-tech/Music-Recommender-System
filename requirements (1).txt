@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+spacy
+rapidfuzz
+rank_bm25
+sentence-transformers
+chromadb
+lightgbm
