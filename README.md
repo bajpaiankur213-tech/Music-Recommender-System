@@ -74,9 +74,12 @@ see `config.py`):
 
 - **`Music Info.csv`** — catalog metadata with columns including
   `track_id`, `name`, `artist`, `genre`, `tags`.
+  This dataset is uploaded in this repo itself.
 - **`User Listening History.csv`** — user playcounts with columns
   `track_id`, `user_id`, `playcount` (the file ships with a header row
   that isn't parsed automatically, which `data_preprocessing.py` handles).
+
+  This dataset can be accessed from here: https://drive.google.com/file/d/1nrQ9Sr2D1SvGcleNpjsucdgBuGTbtrKB/view?usp=sharing
 
 Both files come from the "Music Recommender System" dataset available on
 Kaggle. Point `config.DATA_DIR` at wherever you've downloaded them, e.g.:
